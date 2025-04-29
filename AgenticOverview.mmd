@@ -1,0 +1,8 @@
+graph LR
+    A[Agent 1] <-- A2A --> B[Agent 2]
+    B <-- A2A --> C[Agent 3]
+    C <-- A2S --> A
+    C -- MCP --> D[MCP Server 1]
+    D <--> F[System A]
+    C -- MCP --> E[MCP Server 2]
+    E --> G[System B]
